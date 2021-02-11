@@ -1,0 +1,216 @@
+2021.02.09, v1.10.0
+
+feature:
+- feature(redzip) write: add support of mode
+
+
+
+2021.02.06, v1.9.0
+
+feature:
+- feature(redzip) remove: zip: latest file: prevent acrchive corruption
+
+
+
+2021.02.06, v1.8.5
+
+fix:
+- fix(redzip) remo: zip: directory'
+
+
+
+2021.02.03, v1.8.4
+
+fix:
+- fix(redzip) zip: remove
+
+
+
+2021.02.03, v1.8.3
+
+fix:
+- fix(redzip) local: EPERM on Mac OS
+
+
+
+2021.02.02, v1.8.2
+
+fix:
+- (redzip) local: read: open listener
+
+
+2021.02.02, v1.8.1
+
+feature:
+- (redzip) read: directory: add size
+
+
+2021.02.02, v1.8.0
+
+feature:
+- (redzip) read: add ability to return file size
+
+
+2021.02.01, v1.7.2
+
+fix:
+- (redzip) rm EPERM handling: the same as EACESS on Mac'
+
+
+2021.02.01, v1.7.1
+
+feature:
+- (redzip) local: add support of EPERM
+
+
+2021.02.01, v1.7.0
+
+fix:
+- chore(github) add :lint
+
+feature:
+- (redzip) add support of remove
+
+
+2021.01.31, v1.6.4
+
+fix:
+- (redzip) write: create directory with no slash at then end (coderaiser/cloudcmd#319)
+
+
+2021.01.29, v1.6.3
+
+fix:
+- (redzip) local: add ability to handle stream open event (EACESS emitted on open)
+
+
+2021.01.29, v1.6.2
+
+fix:
+- (redzip) rm tmp file on unzip error
+
+
+2021.01.29, v1.6.1
+
+fix:
+- (redzip) zip: write: directory: slash check -> no stream
+
+
+2021.01.28, v1.6.0
+
+feature:
+- (redzip) add support of unzip
+- (redzip) zip: write: tmp dir -> current dir
+- (redzip) zip: add write
+- (package) eslint-plugin-putout v7.0.0
+- (package) putout v14.0.0
+- (redzip) add write
+
+
+2021.01.21, v1.5.0
+
+feature:
+- (redzip) avoid using win32 path sep in windows for zip
+
+
+2021.01.20, v1.4.0
+
+feature:
+- (redfs) add ability to handle windows paths
+- (redzip) split local and zip vfs into separete directories
+
+
+2021.01.19, v1.3.0
+
+feature:
+- (redzip) readSize: add ability local path
+
+
+2021.01.19, v1.2.0
+
+feature:
+- (redzip) add support of readSize
+
+
+2021.01.14, v1.1.0
+
+feature:
+- (redzip) simplify read interface
+- (read-zip) simplify directory check
+- (redzip) read: move out
+
+
+2021.01.07, v1.0.5
+
+fix:
+- (redzip) normalize path
+
+
+2021.01.07, v1.0.4
+
+fix:
+- (redzip) root path
+
+
+2021.01.06, v1.0.3
+
+fix:
+- (redzip) root
+
+
+2021.01.06, v1.0.2
+
+fix:
+- (package) rm unused dependencies
+
+
+2021.01.06, v1.0.1
+
+fix:
+- (ChangeLog) rm
+
+feature:
+- (redzip) add readify
+- (readzip) add ability to sort and format
+- (package) madrun v7.0.0
+- (package) supertape v2.0.1
+- (package) putout v9.1.0
+- (package) eslint-plugin-putout v5.0.1
+- (package) eslint v7.3.1
+- (package) @cloudcmd/stub v3.1.0
+- (package) try-to-catch v3.0.0
+- (package) nodemon v2.0.2
+- (package) nyc v15.0.0
+- (package) eslint-plugin-node v11.0.0
+- (package) madrun v5.0.0
+- (package) putout v7.0.2
+- (package) eslint-plugin-putout v3.0.0
+- (readbox) madrun
+- (package) eslint v6.5.1
+- (package) nyc v14.1.1
+- (package) string-to-stream v3.0.1
+- (package) pullout v4.0.0
+- (package) try-to-catch v2.0.0
+- (package) sinon, sinon-called-with-diff -> @cloudcmd/stub
+- (package) pullout v3.0.0
+- (package) dropbox-stream -> @cloudcmd/dropbox
+- (readbox) add root support
+- (package) sinon-called-with-diff v3.0.0
+- (readbox) add support of stream type
+- (package) sinon v7.1.0
+- (readbox) es2018-ify
+- (package) currify v3.0.0
+- (readbox) drop support of node < 8
+- (package) dropboxify v2.0.0
+- (package) redrun v7.0.0
+- (package) pullout v2.0.0
+- (package) clear-module v3.0.0
+- (package) nyc v13.0.1
+- (package) squad v3.0.0
+- (package) eslint v5.0.0
+- (package) sinon v6.0.0
+- (package) sinon v5.0.3
+- (package) fast-async v7.0.4
+- (package) redrun v6.0.0
+- (package) keywrods: dropbox
+
