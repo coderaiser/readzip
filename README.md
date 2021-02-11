@@ -1,7 +1,7 @@
 # Readzip [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/readzip.svg?style=flat
-[BuildStatusURL]: https://github.com/coderaiser/readzip/actions/runs/525234132
+[BuildStatusURL]: https://github.com/coderaiser/readzip/actions
 [BuildStatusIMGURL]: https://github.com/coderaiser/readzip/workflows/CI/badge.svg
 [DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/readzip.svg?style=flat
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
