@@ -40,7 +40,7 @@ Also `path` has fields that can be used to get some information
 - `owner`
 
 ```js
-const readzip = require('readzip');
+import readzip from 'readzip';
 const archivePath = './hello.zip';
 
 for await (const path of readzip(archivePath)) {
@@ -56,7 +56,7 @@ for await (const path of readzip(archivePath)) {
 }
 ```
 
-Similar to infomration returned by [readify](https://github.com/coderaiser/readify).
+Similar to info returned by [readify](https://github.com/coderaiser/readify).
 
 ## Related
 
