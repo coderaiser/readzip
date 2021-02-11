@@ -60,7 +60,7 @@ Similar to info returned by [readify](https://github.com/coderaiser/readify).
 
 ## Related
 
-- [redzip](https://github.com/coderaiser/redzip "redzip") - Work with zip archives as it is regular files and directories
+- [redzip](https://github.com/coderaiser/redzip "redzip") - work with zip archives as it is regular files and directories
 - [readify](https://github.com/coderaiser/readify "readify") - read directory content with file attributes: size, date, owner, mode
 - [readbox](https://github.com/coderaiser/readbox "readbox") - read file or directory from `dropbox`
 
