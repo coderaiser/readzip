@@ -1,3 +1,10 @@
+2021.02.18, v1.0.1
+
+fix:
+- fix(readzip) mode: cannot read from archive: set to rw-rw-rw
+
+
+
 2021.02.09, v1.10.0
 
 feature:
