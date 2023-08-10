@@ -1,13 +1,11 @@
-# Readzip [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
+# Readzip [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
 [NPMIMGURL]: https://img.shields.io/npm/v/readzip.svg?style=flat
 [BuildStatusURL]: https://github.com/coderaiser/readzip/actions
 [BuildStatusIMGURL]: https://github.com/coderaiser/readzip/workflows/CI/badge.svg
-[DependencyStatusIMGURL]: https://img.shields.io/david/coderaiser/readzip.svg?style=flat
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]: https://npmjs.org/package/readzip "npm"
 [BuildStatusURL]: https://travis-ci.org/coderaiser/readzip "Build Status"
-[DependencyStatusURL]: https://david-dm.org/coderaiser/readzip "Dependency Status"
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
 [CoverageURL]: https://coveralls.io/github/coderaiser/readzip?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/readzip/badge.svg?branch=master&service=github
@@ -41,6 +39,7 @@ Also `path` has fields that can be used to get some information
 
 ```js
 import readzip from 'readzip';
+
 const archivePath = './hello.zip';
 
 for await (const path of readzip(archivePath)) {
