@@ -8,7 +8,7 @@
   "homepage": "http://github.com/coderaiser/readzip",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/readzip.git"
+    "url": "git+https://github.com/coderaiser/readzip.git"
   },
   "scripts": {
     "test": "madrun test",
