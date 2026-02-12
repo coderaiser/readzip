@@ -1,6 +1,8 @@
 'use strict';
 
-const eslintConfig = require('./.eslintrc');
+import eslintConfig from './.eslintrc.json' with {
+    type: 'json',
+};
 
 module.exports = {
     ...eslintConfig,
