@@ -38,7 +38,7 @@ Also `path` has fields that can be used to get some information
 - `owner`
 
 ```js
-import readzip from 'readzip';
+import {readzip} from 'readzip';
 
 const archivePath = './hello.zip';
 
