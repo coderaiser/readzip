@@ -51,7 +51,7 @@
     "generators"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=22"
   },
   "license": "MIT"
 }
