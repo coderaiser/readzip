@@ -1,3 +1,20 @@
+2026.02.13, v3.0.0
+
+feature:
+- 1195f06 reazip: export: default -> named
+- 4a4cc9b readzip: migrate to ESM
+- 9e53131 readzip: drop support of node < 22
+- 53c1ab9 readzip: yauzl v3.2.0
+- 5ca5b11 readzip: try-to-catch v4.0.5
+- 338412e readzip: supertape v12.5.0
+- 3b0d356 readzip: putout v41.20.1
+- b202670 readzip: pullout v5.0.1
+- 2d3e35c readzip: madrun v12.1.3
+- 454bce9 readzip: eslint-plugin-putout v30.0.3
+- 0ad071e readzip: eslint-plugin-n v17.23.2
+- 62613e9 readzip: eslint v10.0.0
+- f05d183 readzip: c8 v10.1.3
+
 2023.08.10, v2.0.0
 
 feature:
