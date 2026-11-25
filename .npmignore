@@ -1,10 +1,11 @@
-.*
 *.spec.js
+*.swp
+*.config.*
+*.log
+*.lock
+
+.*
+
 test
 coverage
 fixture
-
-*.swp
-yarn-error.log
-
-*.config.*
