@@ -40,7 +40,7 @@
     "nodemon": "^3.0.1",
     "pullout": "^5.0.1",
     "putout": "^42.26.3",
-    "supertape": "^12.5.0"
+    "supertape": "^13.6.2"
   },
   "keywords": [
     "zip",
