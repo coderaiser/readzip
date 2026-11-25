@@ -1,3 +1,15 @@
+2026.11.25, v3.0.1
+
+fix:
+- 6c2e326 readzip: date: add time of the day
+
+feature:
+- 6c501d5 readzip: supertape v13.6.2
+- c1e5cc6 readzip: putout v42.26.3
+- 4740a4f readzip: madrun v13.0.4
+- b76b960 readzip: eslint-plugin-putout v31.5.0
+- 9de8ca6 readzip: c8 v12.0.0
+
 2026.02.13, v3.0.0
 
 feature:
